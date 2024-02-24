@@ -8,9 +8,12 @@
  */
 int _abs(int k)
 {
-	if (k < 0)
+	if (k >= 0)
 	{
-		k = ((-1) * k);
+		return (k);
 	}
-	return (0);
+	else
+	{
+		return (-k);
+	};
 }
