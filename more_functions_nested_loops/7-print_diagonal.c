@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_diagonal - check the code
  * @n: argument
  * Return: Always 0.
  */
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 		{
 			for (f = 0; f < k; f++)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
 			_putchar(92);
 			_putchar('\n');
