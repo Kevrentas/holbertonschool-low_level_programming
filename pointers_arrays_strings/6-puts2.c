@@ -2,7 +2,7 @@
 
 /**
  * puts2 - check the code
- *
+ * @str: argument
  * Return: Always 0.
  */
 void puts2(char *str)
