@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_array - print an array of integers
+ * reverse_array - check the code
  * @a: an array of integers
  * @n: the number of elements to swap
  *
