@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code for
+ * *leet - check the code for
  *
  * Return: Always 0.
  */
