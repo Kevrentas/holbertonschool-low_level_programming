@@ -2,7 +2,7 @@
 
 /**
  * *leet - check the code for
- *
+ * @ptr: argument
  * Return: Always 0.
  */
 char *leet(char *ptr)
