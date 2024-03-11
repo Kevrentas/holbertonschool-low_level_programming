@@ -4,10 +4,10 @@
 
 /**
  * init_dog - write a function that initialize a variable of type struct dog
- * @dog *d: los atributos del casco'e perro
- * @*name: como llamo al perro pa que venga
+ * @d: los atributos del casco'e perro
+ * @name: como llamo al perro pa que venga
  * @age: cuanto lleva vivo
- * @*owner: su maistro
+ * @owner: su maistro
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
