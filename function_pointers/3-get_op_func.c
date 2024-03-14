@@ -4,7 +4,7 @@
 /**
  * get_op_func - function to perform the operation
  *@s: input op
- * Return : function ptr
+ * Return: function ptr
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -20,7 +20,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (ops[i].op != NULL)
 	{
-		if (strcmp(ops[i].op , s) == 0)
+		if (strcmp(ops[i].op, s) == 0)
 			return (ops[i].f);
 		i++;
 	}
