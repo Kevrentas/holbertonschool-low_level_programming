@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
+ * main - op func
+ * @argv: argument verctor
+ * @argc: argument count
+ * Return: total
  */
 int main(int argc, char *argv[])
 {
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	total = get_op_func(argv[2])(atoi(argv[1]) , atoi(argv[3]));
+	total = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
 	printf("%d\n", total);
 	return (0);
 }
