@@ -4,8 +4,6 @@
  * create_file - function with two arguments
  * @filename: ptr to string name
  * @text_content: ptr to string contents
- *
- * Description: creates a file
  * Return: 1 on success or -1 failure
  */
 int create_file(const char *filename, char *text_content)
